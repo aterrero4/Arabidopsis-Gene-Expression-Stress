@@ -1,0 +1,21 @@
+# Ignore raw sequencing data
+*.fastq.gz
+*.fq.gz
+*.sra
+
+# Ignore quality control reports
+*.html
+*.json
+fastqc_reports/
+
+# Ignore Salmon outputs
+salmon_output/
+salmon_index/
+
+# Ignore transcriptome reference (can be downloaded again)
+*.fa
+*.gtf
+
+# Ignore merged & intermediate files
+merged_trimmed.fastq.gz
+gene_counts.csv
